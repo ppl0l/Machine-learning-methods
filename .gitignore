@@ -1,16 +1,12 @@
-# Игнорируем системные папки Jupyter
 .ipynb_checkpoints/
 anaconda_projects/
 
 отчеты/
 
-# Игнорируем файлы данных и веса моделей 
-*.csv
 *.xlsx
 *.pkl
 *.h5
 
-# Системные файлы 
 .DS_Store
 Thumbs.db
 __pycache__/
