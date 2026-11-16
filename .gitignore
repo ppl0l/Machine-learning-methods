@@ -1,12 +1,33 @@
+# Jupyter Checkpoints
 .ipynb_checkpoints/
-anaconda_projects/
 
-отчеты/
-
-*.xlsx
-*.pkl
-*.h5
-
+# IDE & OS Files
 .DS_Store
 Thumbs.db
+anaconda_projects/
+отчеты/
+
+# Python Cache
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets & Archives
+*.tar.gz
+*.zip
+*.tar
+*.npz
+data/
+
+# Model Weights & Checkpoints
+*.pt
+*.pth
+*.onnx
+*.h5
+*.keras
+*.pkl
+
+# Temp & Logs
+*.log
+*.tmp
+*.xlsx
